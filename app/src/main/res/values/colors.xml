@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="midnightGreen">#114B5F</color>
+    <color name="queenBlue">#456990</color>
+    <color name="nyanza">#E4FDE1</color>
+    <color name="fireyRose">#F45B69</color>
+    <color name="wine">#6B2737</color>
+</resources>

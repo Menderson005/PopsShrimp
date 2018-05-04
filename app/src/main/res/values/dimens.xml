@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="dp16">16dp</dimen>
+    <dimen name="dp32">32dp</dimen>
+    <dimen name="dp64">64dp</dimen>
+    <dimen name="neg60">-60dp</dimen>
+    <dimen name="neg25">-25dp</dimen>
+    <dimen name="textSm">20sp</dimen>
+    <dimen name="textMed">24sp</dimen>
+    <dimen name="textLg">30sp</dimen>
+    <dimen name="dp300">300dp</dimen>
+</resources>

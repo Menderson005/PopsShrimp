@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.popsshrimp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/title"
+            android:src="@drawable/shrimplogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/busName" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textSize="@dimen/textLg"
+            android:textColor="@color/queenBlue"
+            android:gravity="center_horizontal"
+            />
+
+
+        <TextView
+            android:id="@+id/addrOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp16"
+            android:text="@string/addrOne"
+            android:textSize="@dimen/textLg"
+            android:textColor="@color/queenBlue"
+            android:gravity="center_horizontal"
+            android:autoLink="map"/>
+
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp8"
+            android:text="@string/phone"
+            android:textSize="@dimen/textLg"
+            android:textColor="@color/queenBlue"
+            android:gravity="center_horizontal"
+            android:autoLink="phone"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hours"
+            android:layout_margin="@dimen/dp8"
+            android:gravity="center_horizontal"
+            android:textColor="@color/queenBlue"
+            android:textSize="@dimen/textLg"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/dp300"
+            android:layout_height="@dimen/dp300"
+            android:scaleType="fitXY"
+            android:src="@drawable/shrimpwborder"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/shrimp"
+            android:layout_margin="@dimen/dp32"/>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

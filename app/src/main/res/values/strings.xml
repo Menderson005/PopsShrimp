@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pop\'s Shrimp</string>
+    <string name="busName"> "Pop Shrimp Co." </string>
+    <string name="description"> Family Grown Shrimp for Families to Buy</string>
+    <string name="addrOne"> 315 West Second Street\nFrankfort KY 40601 </string>
+    <string name="hours"> Open Tuesday - Friday 10:30am - 5:00pm\nSaturday 9:00am - 4:00pm </string>
+    <string name="phone"> 502 - 555 - 1234 </string>
+    <string name="shrimp">Picture of Homegrown Shrimp</string>
+</resources>
